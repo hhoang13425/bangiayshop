@@ -1,0 +1,90 @@
+/* Giữ nguyên từ file gốc của bạn */
+.bannerBottom {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  /* Phần Footer mới thiết kế */
+  .footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e9ecef;
+    padding: 40px 0 20px;
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  .footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia 4 cột */
+    gap: 30px;
+  }
+  
+  .footerColumn h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #212529;
+    text-transform: uppercase;
+  }
+  
+  .footerColumn ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footerColumn li {
+    font-size: 14px;
+    line-height: 2;
+    color: #495057;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .footerColumn li:hover {
+    color: #0066cc;
+  }
+  
+  .footerColumn strong {
+    color: #0066cc;
+  }
+  
+  /* Phần bản quyền phía dưới */
+  .footerBottom {
+    max-width: 1200px;
+    margin: 40px auto 0;
+    padding: 20px 20px 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+  }
+  
+  /* Responsive cho điện thoại */
+  @media (max-width: 768px) {
+    .footerContainer {
+      grid-template-columns: repeat(2, 1fr); /* 2 cột trên mobile */
+    }
+    
+    .bannerBottom {
+      height: 150px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footerContainer {
+      grid-template-columns: 1fr; /* 1 cột trên mobile nhỏ */
+      text-align: center;
+    }
+  }
