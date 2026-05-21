@@ -40,3 +40,8 @@ a {
     color-scheme: dark;
   }
 }
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #c7c7c7, #c7c7c7);
+}
