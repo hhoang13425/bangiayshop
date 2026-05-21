@@ -14,7 +14,7 @@ export default function Header() {
       </nav>
       <div className={styles.logo}>
         <Image 
-          src="/next.svg" 
+          src="/logo.png" 
           alt="Logo" 
           width={120} 
           height={32} 
