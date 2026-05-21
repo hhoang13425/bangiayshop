@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <div className={styles.bannerBottom}>
-        Shop Hhoang DEPZAI .COM
+        Shop BanGiay.Com
       </div>
 
       <footer className={styles.footer}>
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.footerBottom}>
-          <p>© 2026 Shop Hhoang DEPZAI .COM</p>
+          <p>© 2026 Shop BanGiay.Com</p>
         </div>
       </footer>
     </>
